@@ -10,6 +10,7 @@ Plugin=SpotifyPlugin
 Type=AlbumArt
 Res=640
 CoverPath=#@#CoverSpotify.png
+OnChangeAction=[!SetOption MaterialPaletteCover DynamicVariables "0"]#DynamicVariablesActions#
 
 [Track]
 Measure=Plugin

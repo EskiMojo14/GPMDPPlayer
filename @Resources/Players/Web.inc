@@ -8,6 +8,7 @@ Plugin=WebNowPlaying
 PlayerType=Cover
 CoverPath=#@#CoverWeb.png
 UpdateDivider=10
+OnChangeAction=[!SetOption MaterialPaletteCover DynamicVariables "0"]#DynamicVariablesActions#
 
 [Track]
 Measure=Plugin
