@@ -30,16 +30,12 @@ Plugin=SpotifyPlugin
 Type=AlbumName
 Substitute="":"N/A"
 
-[ProgressDec]
+[Progress]
 Measure=Plugin
 Plugin=SpotifyPlugin
 Type=Progress
 Decimals=2
 Substitute="nan":"0"
-
-[Progress]
-Measure=Calc
-Formula=ProgressDec*100
 
 [Duration]
 Measure=Plugin
